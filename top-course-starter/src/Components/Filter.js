@@ -4,9 +4,9 @@ import React from 'react'
   return (
     <div>
         {filterData.map((data) =>{
-            return (<button>
+             <button key={data.id}>
                 {data.title}
-            </button>)
+            </button>
         })}
     </div>
   );
